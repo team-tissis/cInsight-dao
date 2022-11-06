@@ -183,17 +183,20 @@ __コントラクト__
     - https://mumbai.polygonscan.com/address/0x9abf727cbb849aa5077a00db29bf7495fee5e9ac
 
 
-#### テスト手順を含むレポジトリへのリンク(俺らの場合はレポジトリ構成とかでいいのかな?)
-
+#### テスト手順を含むレポジトリへのリンク
 __Smart Contract (https://github.com/team-tissis/cInsightContracts)__
 
 __Frontend (https://github.com/team-tissis/cInsightFrontend)__
 
 __Backend (https://github.com/team-tissis/cInsightBackend)__
 
-#### 審査やテストのためにプロジェクトにアクセスする方法など (サイトのURLとやってほしい操作の動作手順とか？)
+#### 審査やテストのためにプロジェクトにアクセスする方法など
+プロジェクトホームページ：https://chaininsight.tissis.xyz
+SBTのmintに0.1matic(mumbai testnet)必要です。
 
-* * *
+
+ * * *
+
 
 ## 詳細
 
