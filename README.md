@@ -4,12 +4,17 @@ __Portal Repository for cInsightDAO__
 
 
 * * *
-## For Hackathon
+# For Hackathon
 東京web3ハッカソンの審査員の方へ要点のみ以下にまとめます
-### プロダクト概要
+## プロダクト概要
 gform で送る500文字のやつ
+
+## 勉強会の課題とソリューション
+__課題__
 - 勉強会はadminの負担が大きく，持続させることが難しい．
 - 質の担保が難しい．
+
+__Solusion__
 1. **（持続性のために）分散的な意思決定機構とアップデート機構を持つ．**
     - 分散化されたガバナンス機構の実装
         - nouns folk
@@ -20,7 +25,7 @@ gform で送る500文字のやつ
     - グレードに応じてリファラル権が付与される．
     - リファラルによって，報酬が与えられる．
 
-3**. （持続性・質担保のために）貢献（発表，ディスカッションの評価 etc.）に対して妥当な報酬が与えられる．**
+3. **（持続性・質担保のために）貢献（発表，ディスカッションの評価 etc.）に対して妥当な報酬が与えられる．**
 
 - 貢献度の可視化と報酬
     - 貢献は dynamic SBT のグレードアップとして反映される
@@ -46,12 +51,25 @@ gform で送る500文字のやつ
 - 今回の勉強会DAOにおいては，on chain（SBT）上のリファラル関係から，disconnected tree graph を作成できる．この graph から人物間の距離を計算して，近い人物同士の評価（いいね）や投票などを割引する．
     - （future work）リファラルツリーだと，中期フェーズでのインフルエンサー導出としては弱いので，いいねネットワークなどを用いた割引を考える．
 
+- - - 
+# cInsight DAO の説明
 
-### cInsight DAO の説明
+## 本DAOの構成と特徴
+### 1. スマートコントラクト全体構成
+<img src="https://user-images.githubusercontent.com/34847784/200167730-a41fe5da-6881-4b02-8164-95ff33bb1cc1.png" width=700px>
+
+### 2. Bonfire SBT
+<img src="https://user-images.githubusercontent.com/34847784/200167732-655cbc2b-e80b-4af6-9f98-5fbfc5af87f7.png" width=700px>
+
+### 3. Skin NFT
+<img src="https://user-images.githubusercontent.com/34847784/200167733-9f123c3f-4b78-453c-ad46-0f5b94df0e11.png" width=700px>
+
+### 4. Governance
+<img src="https://user-images.githubusercontent.com/34847784/200167800-27c7cead-154c-4eab-bf8d-8ab6d87e6e2c.png" width=700px>
 
 
 
-#### 本DAO内の用語の解説
+## 本DAO内の用語の解説
 
 __Bonfire SBT__
 
@@ -81,7 +99,7 @@ __リファラル__
 グレードに応じてリファラルできる人数が決まる。リファラルにより参加する人は通常よりも安い値段でSBT(会員証)を購入できる。
 優秀なDAOメンバーの信頼する人脈から優秀な人を組織に参加させることができるため、勉強会の質を落とさずにDAOを拡大することができる。
 
-__スキンNFT__
+__スキンNFT（新提案）__
 
 グレードが高いメンバーにはスキンNFTが付与される。保持しているスキンNFTによってSBTの見た目が変化する。
 このスキンNFTは二次流通させることもでき、DAOが拡大していくにつれてこのスキンNFTの価格も高騰していく。
@@ -89,7 +107,10 @@ __スキンNFT__
 
 
 #### Smart Contract の構成
-![Picture1](https://user-images.githubusercontent.com/38465765/200158303-d781b34b-8416-43f6-ba24-400e658aef30.png)
+
+<!-- ![flow](https://user-images.githubusercontent.com/34847784/200167723-5fe4edb8-2f21-45e8-9e87-3fd81552ee4e.png) -->
+<!-- ![資産](https://user-images.githubusercontent.com/34847784/200167734-4af54895-cb48-4fb6-a9ec-f897db4896c7.png) -->
+
 
 
 #### Originality
@@ -106,7 +127,7 @@ __スキンNFT__
 
 - SBTの人的ネットワークを用いて，投票・評価での人間関係バイアスを除去
     - （新規）リファラルツリーから，距離が一定以上近いもの同士は投票・評価を割引．
-    - SBT間の影響力を考慮する発想自体は，vitalikが提案している
+    - SBT間の影響力を考慮する発想自体は，vitalikが提案している（Quadratic Voting）
 
 
 #### 使用した tech stacks
@@ -128,7 +149,8 @@ __Frontend__
 React.js
 
 __Backend__
-node.js, django?
+
+node.js・django
 
 
 #### 使用したBlockChain
@@ -138,6 +160,7 @@ Polygonテストネット Mumbaiを使用
 #### deployしたContract
 
 hoge
+
 #### テスト手順を含むレポジトリへのリンク(俺らの場合はレポジトリ構成とかでいいのかな?)
 
 __Smart Contract (https://github.com/team-tissis/cInsightContracts)__
