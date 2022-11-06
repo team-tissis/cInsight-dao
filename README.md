@@ -128,11 +128,11 @@ Polygonテストネット Mumbaiを使用
 hoge
 #### テスト手順を含むレポジトリへのリンク(俺らの場合はレポジトリ構成とかでいいのかな?)
 
-__Smart Contract (https://github.com/theChainInsight/cInsightContracts)__
+__Smart Contract (https://github.com/team-tissis/cInsightContracts)__
 
-__Frontend (https://github.com/theChainInsight/cInsightFrontend)__
+__Frontend (https://github.com/team-tissis/cInsightFrontend)__
 
-__Backend (https://github.com/theChainInsight/cInsightBackend)__
+__Backend (https://github.com/team-tissis/cInsightBackend)__
 
 #### 審査やテストのためにプロジェクトにアクセスする方法など (サイトのURLとやってほしい操作の動作手順とか？)
 

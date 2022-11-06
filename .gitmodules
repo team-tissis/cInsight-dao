@@ -1,0 +1,12 @@
+[submodule "cInsightBackend"]
+	path = cInsightBackend
+	url = git@github.com:team-tissis/cInsightBackend.git
+[submodule "cInsightContracts"]
+	path = cInsightContracts
+	url = git@github.com:team-tissis/cInsightContracts.git
+[submodule "cInsightFrontend"]
+	path = cInsightFrontend
+	url = git@github.com:team-tissis/cInsightFrontend.git
+[submodule "cInsightAsset"]
+	path = cInsightAsset
+	url = git@github.com:team-tissis/cInsightAsset.git
