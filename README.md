@@ -158,8 +158,30 @@ node.js・django
 Polygonテストネット Mumbaiを使用
 
 #### deployしたContract
+レポジトリ: https://github.com/team-tissis/cInsightContracts
 
-hoge
+__コントラクト__
+- Governance
+  - Proxy.sol
+    - https://mumbai.polygonscan.com/address/0x6573330b11f30a3583bd4c15f7cbbbea912e0727
+  - LogicV1.sol
+     -  https://mumbai.polygonscan.com/address/0xd96ce135c3b83cec2a112e9b7aaaf41b68cdd159
+
+- Executor
+  - Executor.sol
+    - https://mumbai.polygonscan.com/address/0xb9bd0fe4a48c591fe69c6a322960b2841d5b7a52
+
+- Bonfire
+  - BonfireProxy.sol
+    - https://mumbai.polygonscan.com/address/0x3a76707e7e789fed03c01282d90d5e0a7d13fc1d
+
+  - BonfireLogic.sol
+    - https://mumbai.polygonscan.com/address/0x81d391eee3aeef9438f66fe489569e5145d8d366
+
+- SkinNFT
+  ー SkinNft.sol
+    - https://mumbai.polygonscan.com/address/0x9abf727cbb849aa5077a00db29bf7495fee5e9ac
+
 
 #### テスト手順を含むレポジトリへのリンク(俺らの場合はレポジトリ構成とかでいいのかな?)
 
