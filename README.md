@@ -1,20 +1,20 @@
 # cInsightDAO
-__Portal Repository for cInsightDAO__
+__Portal Repository for cInsightDAO__  
 
+プロジェクトホームページ  
+https://chaininsight.tissis.xyz
 
+Opensea  
+https://testnets.opensea.io/collection/bonfire-v4
 
 * * *
 # For Hackathon
 東京web3ハッカソンの審査員の方へ，要点のみ以下にまとめます．
 ## プロダクト概要
 勉強会は，参加者が高め合いながら実力を伸ばせる有意義な場です．一方，管理者に負担が集中しがちな上，質の高い発表に対する報酬や組織拡大への貢献に対する報酬がなく，長期間持続させるのは困難です．
-
 そこで私たちは，自律分散的な意思決定機構，貢献に対するインセンティブ機構，持続可能な組織拡大機構の3つを持ち合わせたDAOの実装を行いました．
-
 意思決定機構については，NounsDAOをさらに改善する形で実装しました．これにより，管理者なしに投票を通じた意思決定が可能になります．
-
 DAOメンバーは，発表や討論において他のメンバーに「いいね」を付与することができ，その数に応じてメンバーのDAOへの貢献度を表す「グレード」がアルゴリズムによって決まります．グレードの上昇は焚き火SBTの成長に反映され．グレードの高いメンバーには，焚き火SBTの色を変化させる火種の役割を持つスキンNFTが付与されます．
-
 グレードが高いメンバーにはリファラル権が付与され，リファラル者には報酬が与えられます．これにより，勉強会の質を担保しつつ，メンバー間で友好的な関係を築きながら，DAOを拡大できることが期待されます．
 
 ## 勉強会の課題とソリューション
@@ -199,13 +199,4 @@ __Frontend (https://github.com/team-tissis/cInsightFrontend)__
 __Backend (https://github.com/team-tissis/cInsightBackend)__
 
 #### 審査やテストのためにプロジェクトにアクセスする方法など
-プロジェクトホームページ：https://chaininsight.tissis.xyz
 SBTのmintに0.1matic(mumbai testnet)必要です。
-
-
- * * *
-
-
-## 詳細
-
-### Smart Contract
