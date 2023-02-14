@@ -2,17 +2,15 @@
 __Portal Repository for cInsightDAO__  
 
 プロジェクトホームページ  
-https://chaininsight.tissis.xyz
+https://chaininsight.tissis.xyz 
 
 Opensea  
 https://testnets.opensea.io/collection/bonfire-v4
 
 * * *
-# For Hackathon
-東京web3ハッカソンの審査員の方へ，要点のみ以下にまとめます．
 ## プロダクト概要
-勉強会は，参加者が高め合いながら実力を伸ばせる有意義な場です．一方，管理者に負担が集中しがちな上，質の高い発表に対する報酬や組織拡大への貢献に対する報酬がなく，長期間持続させるのは困難です．
-そこで私たちは，自律分散的な意思決定機構，貢献に対するインセンティブ機構，持続可能な組織拡大機構の3つを持ち合わせたDAOの実装を行いました．
+勉強会は，管理者に負担が集中しがちな上，質の高い発表に対する報酬や組織拡大への貢献に対する報酬がなく，長期間持続させるのは困難です．
+この課題に対して，本プロジェクトは自律分散的な意思決定機構，貢献に対するインセンティブ機構，持続可能な組織拡大機構の3つを持ち合わせたDAOを実装し，解決します．
 意思決定機構については，NounsDAOをさらに改善する形で実装しました．これにより，管理者なしに投票を通じた意思決定が可能になります．
 DAOメンバーは，発表や討論において他のメンバーに「いいね」を付与することができ，その数に応じてメンバーのDAOへの貢献度を表す「グレード」がアルゴリズムによって決まります．グレードの上昇は焚き火SBTの成長に反映され．グレードの高いメンバーには，焚き火SBTの色を変化させる火種の役割を持つスキンNFTが付与されます．
 グレードが高いメンバーにはリファラル権が付与され，リファラル者には報酬が与えられます．これにより，勉強会の質を担保しつつ，メンバー間で友好的な関係を築きながら，DAOを拡大できることが期待されます．
@@ -42,22 +40,7 @@ __Solusion__
 - 発表・ディスカッションに対していいねをつけることができ，このいいねの数に応じてグレードが向上し，報酬が与えられる．
 - いいねをする（評価する）ことに対しても報酬が与えられる．
 
-### 裏のテーマ
 
-従来のプロダクトにはもたらし得なかった新しい視点はあるか？
-
-- 多くの集団において，既得権益者による集団の意思決定の支配と，富の集中化が問題．
-- 上記のような偏りを軽減することにより，多数の幸福が実現されうる．
-
-→ 金銭的な権力を排除し参加者全員により対等な権利が与えられたDAO によってこの偏りの低減が可能
-
-- しかしながら，近年の新たな既得権益構造として，インフルエンサーによる意思決定支配と，富の過度な集中化が存在し，DAOはこれの影響を大きく受ける．
-- **インフルエンサーの影響が低減された，分散意思決定機構と富の分配機構を保持する組織を作りたい．**
-
-→ on chain dataから得られる人物ネットワークから，人物間の影響力バイアスを算出することで，貢献に対する客観的な報酬発行と，高度に分散化された意思決定を実現する．
-
-- 今回の勉強会DAOにおいては，on chain（SBT）上のリファラル関係から，disconnected tree graph を作成できる．この graph から人物間の距離を計算して，近い人物同士の評価（いいね）や投票などを割引する．
-    - （future work）リファラルツリーだと，中期フェーズでのインフルエンサー導出としては弱いので，いいねネットワークなどを用いた割引を考える．
 
 - - - 
 # cInsight DAO の説明
@@ -120,6 +103,22 @@ __スキンNFT（新提案）__
 <!-- ![資産](https://user-images.githubusercontent.com/34847784/200167734-4af54895-cb48-4fb6-a9ec-f897db4896c7.png) -->
 
 
+#### 裏のテーマ
+
+従来のプロダクトにはもたらし得なかった新しい視点はあるか？
+
+- 多くの集団において，既得権益者による集団の意思決定の支配と，富の集中化が問題．
+- 上記のような偏りを軽減することにより，多数の幸福が実現されうる．
+
+→ 金銭的な権力を排除し参加者全員により対等な権利が与えられたDAO によってこの偏りの低減が可能
+
+- しかしながら，近年の新たな既得権益構造として，インフルエンサーによる意思決定支配と，富の過度な集中化が存在し，DAOはこれの影響を大きく受ける．
+- **インフルエンサーの影響が低減された，分散意思決定機構と富の分配機構を保持する組織を作りたい．**
+
+→ on chain dataから得られる人物ネットワークから，人物間の影響力バイアスを算出することで，貢献に対する客観的な報酬発行と，高度に分散化された意思決定を実現する．
+
+- 今回の勉強会DAOにおいては，on chain（SBT）上のリファラル関係から，disconnected tree graph を作成できる．この graph から人物間の距離を計算して，近い人物同士の評価（いいね）や投票などを割引する．
+    - （future work）リファラルツリーだと，中期フェーズでのインフルエンサー導出としては弱いので，いいねネットワークなどを用いた割引を考える．
 
 #### Originality
 - DAO内での貢献は他のメンバーのいいねによって公平に評価され、この評価に従ってインセンティブが与えられる。このスキームは貢献に対する評価方法、インセンティブ設計として様々なDAOに適用可能。
@@ -138,65 +137,27 @@ __スキンNFT（新提案）__
     - SBT間の影響力を考慮する発想自体は，vitalikが提案している（Quadratic Voting）
 
 
-#### 使用した tech stacks
-__Smart Contract__
-
-Solidityを使用
-
-- Upgradable Contract
-   - SBT contract, Govenance Contract の両方について contProxy ContractとImplementation Contractに分けて実装。デプロイ後もアップグレード可能なDAOを実現した。
-   - 「EIP-2535: Diamonds, Multi-Facet Proxy」を用いることによって実装後の拡張性を向上させた。
-- dynamic sbt
-  - SBT保有者のグレード、所持しているskinNFTによって画像が動的に変化するSBT。
-- governance
-  - proposal → voting → smart contract update をシームレスに実現する分散ガバナンス機構を実装。ロジックやパラメータの変更はこのプロセス以外では実行できない。
-
-
-__Frontend__
-
-React.js
-
-__Backend__
-
-node.js・django
-
-
-#### 使用したBlockChain
-
+### 使用したBlockChain
 Polygonテストネット Mumbaiを使用
 
 #### deployしたContract
-レポジトリ: https://github.com/team-tissis/cInsightContracts
-
-__コントラクト__
 - Governance
   - Proxy.sol
-    - https://mumbai.polygonscan.com/address/0x6573330b11f30a3583bd4c15f7cbbbea912e0727
+    https://mumbai.polygonscan.com/address/0x6573330b11f30a3583bd4c15f7cbbbea912e0727
   - LogicV1.sol
-     -  https://mumbai.polygonscan.com/address/0xd96ce135c3b83cec2a112e9b7aaaf41b68cdd159
+    https://mumbai.polygonscan.com/address/0xd96ce135c3b83cec2a112e9b7aaaf41b68cdd159
 
 - Executor
   - Executor.sol
-    - https://mumbai.polygonscan.com/address/0xb9bd0fe4a48c591fe69c6a322960b2841d5b7a52
+    https://mumbai.polygonscan.com/address/0xb9bd0fe4a48c591fe69c6a322960b2841d5b7a52
 
 - Bonfire
   - BonfireProxy.sol
-    - https://mumbai.polygonscan.com/address/0x3a76707e7e789fed03c01282d90d5e0a7d13fc1d
+    https://mumbai.polygonscan.com/address/0x3a76707e7e789fed03c01282d90d5e0a7d13fc1d
 
   - BonfireLogic.sol
-    - https://mumbai.polygonscan.com/address/0x81d391eee3aeef9438f66fe489569e5145d8d366
+    https://mumbai.polygonscan.com/address/0x81d391eee3aeef9438f66fe489569e5145d8d366
 
 - SkinNFT
   ー SkinNft.sol
-    - https://mumbai.polygonscan.com/address/0x9abf727cbb849aa5077a00db29bf7495fee5e9ac
-
-
-#### テスト手順を含むレポジトリへのリンク
-__Smart Contract (https://github.com/team-tissis/cInsightContracts)__
-
-__Frontend (https://github.com/team-tissis/cInsightFrontend)__
-
-__Backend (https://github.com/team-tissis/cInsightBackend)__
-
-#### 審査やテストのためにプロジェクトにアクセスする方法など
-SBTのmintに0.1matic(mumbai testnet)必要です。
+    https://mumbai.polygonscan.com/address/0x9abf727cbb849aa5077a00db29bf7495fee5e9ac
