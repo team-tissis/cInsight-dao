@@ -103,7 +103,7 @@ DAO メンバーは、発表や討論において他のメンバーに「いい�
   - DAO の金庫からの出資
 - 提案の状態及び、それによって決まる実行可能な操作は全てスマートコントラクトで管理されており、非中央集権的な統治が実現されます。
 
-<img src="https://user-images.githubusercontent.com/61929751/236633499-15bc3480-0a28-470d-9418-7d5b5adc183a.png" width=800px>
+<img src="https://user-images.githubusercontent.com/61929751/236634122-8c6b8288-59c7-425d-ad95-7bc679b72db5.png" width=900px>
 
 
 **Proxy コントラクト**
