@@ -51,8 +51,8 @@ DAO メンバーは、発表や討論において他のメンバーに「いい�
 
 **前期**
 
-- Frontend: @nisshimo (+ @Shion-0014, @hidenoriwakiri)
-- Backend: @nisshimo (+ @Shion-0014,)
+- Frontend: @nisshimo (+@Shion-0014, @hidenoriwakiri)
+- Backend: @nisshimo (+@Shion-0014,)
 - Smart Contract
   - SBT, NFT: @hiroyaiyori, @Shion-0014
   - Governance: @hidenoriwakiri
@@ -60,19 +60,19 @@ DAO メンバーは、発表や討論において他のメンバーに「いい�
 
 **後期**
 
-- @hidenoriwakiri, @Shion-0014, @katoatsushi (+ @hiroyaiyori)
+- @hidenoriwakiri, @Shion-0014, @katoatsushi (+@hiroyaiyori)
 
 ## 技術スタック
 
-- **Frontend:** React / TypeScript
+- Frontend: React / TypeScript
 
-- **Middle:** Ethers.js
+- Middle: Ethers.js
 
-- **Backend:** Django
+- Backend: Django
 
-- **Smart Contract:** Solidity, Foundry (+ Anvil)
+- Smart Contract: Solidity, Foundry (+ Anvil)
 
-- **Deploy:** AWS, Nginx, Mumbai Network
+- Deploy: AWS, Nginx, Mumbai Network
 
 ## 各機能の詳細な解説
 
