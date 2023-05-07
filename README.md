@@ -2,7 +2,7 @@
 
 **Portal Repository for cInsightDAO**
 
-TODO:
+TODO: URL の追加
 
 プロジェクトホームページ  
 https://chaininsight.tissis.xyz
@@ -173,7 +173,7 @@ DAO メンバーは、発表や討論において他のメンバーに「いい�
   このスキン NFT は二次流通させることもでき、DAO が拡大していくにつれてこのスキン NFT の価格も高騰していく。
   つまり、スキン NFT を保持しているメンバーにとっては DAO を拡大することがインセンティブにつながる。
 
-TODO:
+TODO: コントラクトアドレスの更新
 
 ## 使用した BlockChain
 
