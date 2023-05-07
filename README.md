@@ -2,7 +2,7 @@
 
 **Portal Repository for cInsightDAO**
 
-TODO: URL の追加
+TODO: URL の追加, レポへのリンク更新
 
 プロジェクトホームページ  
 https://chaininsight.tissis.xyz
